@@ -1,0 +1,153 @@
+.body {
+    font-family: ;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 44px;
+    background-color: #592D14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+    width: 2vw;
+    height: 26px;
+    background-color: #D99066;
+    position: relative;
+
+    grid-column: 2/3;
+}
+
+.item {
+    width: 3vw;
+    height: 26px;
+    background-color: #D99066;
+    position: relative;
+
+    grid-column: span 3/10;
+    grid-row: 1;
+}
+
+.rectangle {
+    width: 100vw;
+    height: 91px;
+    background-color: white;
+    position: relative;
+}
+
+.donation {
+    width: 18vw;
+    height: 50px;
+    background-color: #D99066;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.image {
+    width: 100vw;
+    height: 692px;
+    background-color: #0D0D0D;
+    position: relative;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.text_box {
+    width: 27vw;
+    height: 133px;
+    background-color: #D99066;
+    position: relative;
+    margin: auto;
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.link {
+    width: 7vw;
+    height: 30px;
+    background-color: #BF5630;
+    position: relative;
+    margin: auto;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.image_3 {
+    width: 100vw;
+    height: 692px;
+    background-color: #989DA6;
+    position: relative;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row {
+    width: 100vw;
+    height: 603px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.image_2 {
+    width: 48vw;
+    height: 580px;
+    background-color: #989DA6;
+    position: relative;
+    margin: 5px;
+}
+
+.footer {
+    width: 100vw;
+    height: 365px;
+    background-color: #592D14;
+    position: relative;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer_info {
+    width: 52vw;
+    height: 173px;
+    background-color: #D99066;
+    position: relative;
+    margin: auto;
+
+    grid-column-start: 5;
+}
+
+.footer_info_2 {
+    width: 7vw;
+    height: 143px;
+    background-color: #BF5630;
+    position: relative;
+    margin: auto;
+
+    grid-column: 2/9;
+    grid-row: 2/3;
+}
