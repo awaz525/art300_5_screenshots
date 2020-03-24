@@ -1,0 +1,51 @@
+.body {
+    font-family: ;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 65px;
+    background-color: #001824;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    background-color: #73021B;
+    width: 6vw;
+    height: 31px;
+    margin: auto;
+}
+
+.item {
+    background-color: #73021B;
+    width: 6vw;
+    height: 31px;
+    margin: auto;
+}
+
+.content_area {
+    background-color: white;
+    padding: 0;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.image {
+    background-color: #FEC500;
+    width: 44vw;
+    height: 546px;
+}

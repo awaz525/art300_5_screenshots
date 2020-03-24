@@ -12,6 +12,10 @@ body {
     top: 0;
     left: 0;
     height: 41px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .nav_bar {
@@ -21,6 +25,17 @@ body {
     padding: 5px;
     margin-top: 50px;
     height: 57px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.item {
+    width: 5vw;
+    background-color: #F2522E;
+    margin: auto;
+    /* margin-top: 5px; */
 }
 
 .search_bar {
@@ -127,11 +142,3 @@ body {
 
 }
 
-.item {
-    width: 5vw;
-    background-color: #F2522E;
-    margin: auto;
-    position: relative;
-    margin-top: 5px;
-    
-}
